@@ -24,7 +24,8 @@ function changingH1text(No1,No2)
     }
 }
 
-document.querySelector(".BUTTON_CZP").onclick=function click()
+document.querySelector(".BUTTON_CZP").onclick=click;
+function click()
 {
     //actualtrigger
     var no1,no2;
